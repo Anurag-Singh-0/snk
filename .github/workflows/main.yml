@@ -35,9 +35,9 @@ jobs:
         with:
           github_user_name: Anurag-Singh-0
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-contribution-grid-snake.svg?color_snake=#ff5733&color_dots=#78c6f3,#5ec2a7,#d8b5b5&color_background=#000000
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ff5733&color_dots=#78c6f3,#5ec2a7,#d8b5b5&color_background=#22272e
+            dist/github-contribution-grid-snake.gif?color_snake=#ff5733&color_dots=#78c6f3,#5ec2a7,#d8b5b5&color_background=#000000
 
       - name: ensure the generated file exists
         run: |
@@ -73,10 +73,10 @@ jobs:
         id: generate-snake
         uses: ./svg-only
         with:
-          github_user_name: platane
+          github_user_name: Anurag-Singh-0
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#ff5733&color_dots=#78c6f3,#5ec2a7,#d8b5b5&color_background=#000000
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ff5733&color_dots=#78c6f3,#5ec2a7,#d8b5b5&color_background=#22272e
 
       - name: ensure the generated file exists
         run: |
