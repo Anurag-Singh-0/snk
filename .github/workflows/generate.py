@@ -1,3 +1,2 @@
-snake_color = "#1abc9c"
-background_color = "#ffffff"
-
+snake_color = "#ff5733"       
+background_color = "#000000"  
